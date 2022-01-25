@@ -483,15 +483,15 @@ a:focus, a:hover {
 
 .navigation {
   transition: .3s all;
-  background: #1f2532;
+  background: #641a86b6;
 }
 
 .navigation .navbar-nav > li.active a {
-  color: #fff;
+  color: rgb(255, 0, 0);
 }
 
 .navigation .navbar-nav > li > a {
-  color: #707d8f;
+  color: #eeff00;
   font-size: 15px;
   line-height: 26px;
   padding: 20px 15px !important;
@@ -511,23 +511,25 @@ a:focus, a:hover {
 }
 
 .navigation .navbar-nav > li > a:hover, .navigation .navbar-nav > li > a:active, .navigation .navbar-nav > li > a:focus {
-  background: none;
-  color: #f0326b;
+  font-size: larger;
+  background:#02030069;
+  color: #ffffff;
+  border-radius: 20px;
 }
 
 .navigation .navbar-toggler {
-  color: #fff;
+  color: rgb(255, 0, 55);
   font-size: 30px;
   cursor: pointer;
-  outline: none;
+  outline:#21D6BF;
 }
 
 .navigation .nav .open > a {
-  background: none;
+  background:#1b1b1b;
 }
 
 .navigation .dropdown {
-  padding: 0;
+  padding: 5px;
 }
 
 .navigation .dropdown:hover .dropdown-menu {
@@ -591,7 +593,8 @@ a:focus, a:hover {
 
 .navbar-brand {
   height: auto;
-  padding: 8px 0;
+  padding: 8px 5px;
+  border-radius: 8px;
 }
 
 .navbar-brand h1 {
@@ -604,7 +607,7 @@ a:focus, a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #1f2532;
+  background: #320A28;
 }
 
 @media (max-width: 480px) {
@@ -614,7 +617,7 @@ a:focus, a:hover {
 }
 
 .hero-area .block {
-  color: #fff;
+  color: #f1d817;
   padding-left: 30px;
 }
 
@@ -711,7 +714,7 @@ a:focus, a:hover {
 }
 
 .dark-bg {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(8, 187, 133, 0.7);
   height: 100%;
   width: 100%;
   position: absolute;
@@ -722,7 +725,11 @@ a:focus, a:hover {
   About us section
 ==================================================================*/
 .about {
-  background: #fff;
+  background: #2b1430bd;
+}
+
+.abouthead{
+  color:cornsilk
 }
 
 .about h2 {
@@ -750,6 +757,7 @@ a:focus, a:hover {
 }
 
 .about .content {
+  color:#320A28;
   padding: 50px 0;
 }
 
@@ -763,7 +771,7 @@ a:focus, a:hover {
   About us 2 section
 ==================================================================*/
 .about-2 {
-  background: #F7F7F7;
+  background: #4e173fa8;
 }
 
 .about-2 h2 {
@@ -781,6 +789,14 @@ a:focus, a:hover {
   background-color: #ffa535;
   background-image: linear-gradient(100deg, #f9643d, #fe2a77);
   background-image: linear-gradient(100deg, #f9643d, #fe2a77);
+}
+
+.text{
+  color:#0a3124
+}
+
+.heading{
+  color:antiquewhite
 }
 
 @media (max-width: 768px) {
@@ -838,6 +854,10 @@ a:focus, a:hover {
   ==================================================================*/
 .contact-form {
   margin-bottom: 40px;
+}
+
+.contact-us{
+  background-color: #dee4c0;
 }
 
 @media (max-width: 768px) {
@@ -958,6 +978,10 @@ a:focus, a:hover {
 /*=================================================================
   Pricing section
 ==================================================================*/
+.pricing-table{
+  background-color:#0d495a;
+}
+
 .pricing-table .pricing-item {
   margin-bottom: 15px;
   border-radius: 3px;
@@ -1019,6 +1043,10 @@ a:focus, a:hover {
 /*=================================================================
   Portfolio section
 ==================================================================*/
+.portfolio{
+  background-color: #c9986194;
+}
+
 .portfolio-filter {
   margin-bottom: 40px;
   text-align: center;
@@ -1034,19 +1062,19 @@ a:focus, a:hover {
   font-weight: 600;
   text-transform: uppercase;
   border: none;
-  color: #777;
+  color: rgb(223, 23, 23);
   outline: none;
   background: none;
 }
 
 .portfolio-filter button:hover {
-  border-bottom: 2px solid #f0326b;
-  color: #000;
+  border-bottom: 2px solid #972fd3;
+  color: rgb(36, 87, 34);
 }
 
 .portfolio-filter button.active {
-  border-bottom: 2px solid #f0326b;
-  color: #000;
+  border-bottom: 2px solid #e4156b;
+  color: rgb(39, 83, 228);
 }
 
 .portfolio-items-wrapper li {
@@ -1124,6 +1152,9 @@ a:focus, a:hover {
 .services .service-block {
   padding: 30px 20px;
 }
+.services{
+  background-color:#21d6be6c;
+}
 
 @media (max-width: 480px) {
   .services .service-block {
@@ -1141,15 +1172,16 @@ a:focus, a:hover {
   background: linear-gradient(100deg, #f9643d, #fe2a77);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-color: #DD99BB;
 }
 
 .services .service-block h3 {
-  color: #333;
+  color: rgb(25, 42, 110);
   font-size: 18px;
 }
 
 .services .service-block p {
-  color: #777;
+  color: rgb(136, 52, 52);
 }
 
 /*=================================================================
@@ -1173,8 +1205,12 @@ a:focus, a:hover {
   }
 }
 
+.service-2{
+  background-color:#eb7f208c;
+}
+
 .service-2 .service-item {
-  background: #fff;
+  background: rgba(114, 27, 67, 0.541);
   border: 1px solid #eee;
   padding: 50px 20px;
   margin-right: -1px;
@@ -1227,8 +1263,12 @@ a:focus, a:hover {
 /*=================================================================
   Our Team
   ==================================================================*/
-.team-member {
-  background: #fff;
+.team{
+  background-color:#140a0bc2 ;
+}
+
+  .team-member {
+  background: #7d89a8c2;
   margin-bottom: 15px;
 }
 
@@ -1491,3 +1531,11 @@ a:focus, a:hover {
 }
 
 /*# sourceMappingURL=maps/style.css.map */
+
+
+/*=================================================================
+  Blog section
+==================================================================*/
+.blog{
+  background-color:#2169d688;
+}
