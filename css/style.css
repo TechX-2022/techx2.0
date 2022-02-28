@@ -3,6 +3,8 @@ body {
   line-height: 1.4;
   font-family: "Titillium Web", sans-serif;
   -webkit-font-smoothing: antialiased;
+  background-color: #000;
+  color: #fff;
 }
 
 p {
@@ -328,7 +330,7 @@ a:focus, a:hover {
 
 .title h2 {
   font-size: 35px;
-  color: #232323;
+  color: #fff;
   text-transform: capitalize;
   margin-bottom: 8px;
   font-weight: 700;
@@ -449,8 +451,9 @@ a:focus, a:hover {
 }
 
 .bg-pricing {
-  background: url("../images/pricing-bg.jpg");
-  background-size: cover;
+  background-color: rgb(156, 153, 153);
+  /* background: url("../images/pricing-bg.jpg");
+  background-size: cover; */
 }
 
 .single-page-header {
@@ -959,11 +962,11 @@ a:focus, a:hover {
   Pricing section
 ==================================================================*/
 .pricing-table .pricing-item {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   border-radius: 3px;
   padding-bottom: 40px;
   text-align: center;
-  background: #f9f9f9;
+  background-color: rgb(59, 59, 59);
 }
 
 .pricing-table .pricing-item a.btn-main, .pricing-table .pricing-item a.btn-main-sm {
@@ -990,11 +993,11 @@ a:focus, a:hover {
   text-align: center;
   border-top-right-radius: 3px;
   border-top-left-radius: 3px;
-  color: #fff;
+  color: #000;
 }
 
 .pricing-table .price-title > h3 {
-  color: #fff;
+  color: #000;
   font-weight: 700;
   margin: 0 0 5px;
   font-size: 15px;
@@ -1002,7 +1005,7 @@ a:focus, a:hover {
 }
 
 .pricing-table .price-title > p {
-  color: #fff;
+  color: #000;
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
